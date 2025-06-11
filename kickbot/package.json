@@ -1,12 +1,12 @@
 {
-    "name": "kickbot",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "dependencies": {
-      "puppeteer": "^21.3.8"
-    }
+  "name": "kickbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^21.11.0",
+    "chrome-aws-lambda": "^10.1.0"
   }
-  
+}
